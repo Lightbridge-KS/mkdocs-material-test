@@ -2,6 +2,13 @@
 
 For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
+- [usage](user-guide/usage.md)
+- [install](user-guide/install.md)
+
+## Create Site from Obsidian
+
+<https://www.starfallprojects.co.uk/blog/obsidian-monorepo/>
+
 ## Commands
 
 * `mkdocs new [dir-name]` - Create a new project.
