@@ -1,0 +1,20 @@
+[build]
+  command = "mkdocs build"
+  publish = "site"
+
+[build.environment]
+  PYTHON_VERSION = "3.8"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+[context.production]
+  environment = { DEPLOY_PRIME_URL = "https://mkdocs-material-test-lightbridge.netlify.app" }
+
+[context.deploy-preview]
+  command = "mkdocs build --site-dir=site"
+
+[context.branch-deploy]
+  command = "mkdocs build --site-dir=site"
