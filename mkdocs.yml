@@ -1,5 +1,6 @@
-site_name: My site
-site_url: https://mydomain.org/mysite
+site_name: My test site
+site_url: https://mkdocs-material-test-lightbridge.netlify.app
+repo_url: https://github.com/Lightbridge-KS/mkdocs-material-test
 nav:
   - Home: "index.md"
   - Test: "tester.md"
